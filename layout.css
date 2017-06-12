@@ -1,0 +1,126 @@
+/* CSS Document */
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 500;
+}
+
+h1{
+	font-size: 3vw;
+}
+
+h4{
+	font-size: 1vw;
+}
+
+/*h1:not(.funfact_label){
+	border-bottom: 5px solid black;
+}*/
+
+p,label,li {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-size: 1vw;
+}
+
+p{
+	line-height: 2em;
+	letter-spacing: .1em;
+}
+
+a{
+	text-decoration: none;	
+	color: black;
+	font-size: 1em;
+}
+
+#wrapper{
+	margin:auto;
+	/*width: 1200px;*/
+	width: 80%;
+	background-color: white;
+	padding:2px;
+	/*box-shadow: 0 0 20px rgba(0,0,0,0.7);*/
+}
+
+#title{
+	width: 40%;
+	text-align: center;
+	margin:0 auto;
+	padding: 0px;
+	float: left;
+}
+
+#header{
+	padding-bottom: 1%;
+}
+
+#title img{
+	width: 75%;
+}
+
+#profPic{
+	width: 10%;
+	float:left;
+	margin-left: 2%;
+	text-align: center;
+}
+
+#profPic img{
+	width: 75%;
+	border: 1px solid black;
+	border-radius: 55%;
+	padding: auto;
+	margin: 0 auto;
+}
+
+#nav{
+	float: left;
+	width: 45%;
+	margin-left: 2%;
+}
+
+.desktopMenu{
+	width: 75%;
+	margin: 0 auto;
+	list-style: none;
+	float: right;
+}
+
+.desktopMenu li{
+	margin-right: 3%;
+	float: left;
+}
+
+.headfill{
+	height: 1.5vw;
+	background-color: black;
+	border: 2px solid black;
+}
+
+#content{
+	clear: both;
+	background-color: white;
+	width: 96.5%;
+	padding-bottom: 10px;
+}
+
+.hidden {
+	visibility: hidden;	
+}
+
+.filler{
+	clear:both;	
+}
+
+#footer{
+	/*background-image:url(../IMG/footerBg.jpg);*/
+	background-color: black;
+	color: white;
+	position:relative;
+}
+
+#footer h4{
+	text-align: right;
+	padding: auto;
+}
+
